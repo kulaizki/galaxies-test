@@ -7,6 +7,7 @@ import Functions from "@/components/Functions";
 import PlatformStyle from "@/components/PlatformStyle";
 import Welcome from "@/components/welcome/welcome";
 import SafeBox from "@/components/SafeBox";
+import Themed from "@/components/Themed";
 
 export default function Index() {
   return (
@@ -18,7 +19,8 @@ export default function Index() {
       {/* <Functions /> */}
       {/* <PlatformStyle />  */}
       {/* <Welcome /> */}
-      <SafeBox />
+      {/* <SafeBox /> */}
+      <Themed />
     </View>
   );
 }
@@ -26,7 +28,5 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
   },
 });
