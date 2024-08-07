@@ -1,5 +1,4 @@
-import { View, Text, StyleSheet } from 'react-native';
-import { useWindowDimensions } from 'react-native';
+import { View, Text, StyleSheet, useWindowDimensions } from 'react-native';
 
 const Basics = () => {
   const { height, width, scale, fontScale } = useWindowDimensions();
