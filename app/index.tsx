@@ -20,7 +20,8 @@ export default function Index() {
       {/* <PlatformStyle />  */}
       {/* <Welcome /> */}
       {/* <SafeBox /> */}
-      <Themed />
+      {/* <Themed /> */}
+      <Welcome />
     </View>
   );
 }
