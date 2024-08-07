@@ -1,6 +1,5 @@
-import { useState } from "react";
-import { View, Button, StyleSheet } from "react-native";
-
+import { useState } from 'react';
+import { View, Button, StyleSheet } from 'react-native';
 const Conditional = () => {
   const [condition, setCondition] = useState(false);
 
@@ -8,18 +7,19 @@ const Conditional = () => {
     return [
       styles.box,
       {
-        backgroundColor: condition ? "green" : "red",
+        backgroundColor: condition ? 'green' : 'red',
         width: 100,
         height: 100,
       },
     ];
   };
+
   return (
     <View>
       <Button title="Toggle" onPress={() => setCondition(!condition)} />
       <View
         style={{
-          backgroundColor: condition ? "red" : "blue",
+          backgroundColor: condition ? 'red' : 'blue',
           width: 100,
           height: 100,
         }}
@@ -29,9 +29,7 @@ const Conditional = () => {
         style={[
           styles.box,
           {
-            backgroundColor: condition ? "red" : "blue",
-            width: 100,
-            height: 100,
+            backgroundColor: condition ? 'red' : 'blue',
           },
         ]}
       />
@@ -45,5 +43,4 @@ const styles = StyleSheet.create({
     height: 100,
   },
 });
-
 export default Conditional;
