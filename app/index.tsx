@@ -1,16 +1,10 @@
-import { Text, View } from "react-native";
-import Flex from "@/components/Flex";
+import { View } from "react-native";
+import Conditional from "@/components/Conditional";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-    <Flex />
+    <View>
+      <Conditional />
     </View>
   );
 }
